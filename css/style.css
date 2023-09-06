@@ -1,0 +1,8 @@
+header {
+  display: flex;
+  background-color: #F0EFE9;
+  padding: 15px;
+}
+header .container {
+  display: flex;
+}/*# sourceMappingURL=style.css.map */
