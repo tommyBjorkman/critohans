@@ -5,4 +5,26 @@ header {
 }
 header .container {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 70px;
+}
+header .container .menu-bars {
+  width: 35px;
+  height: 35px;
+  border: none;
+  background-color: transparent;
+}
+@media (min-width: 992px) {
+  header .container .menu-bars {
+    display: none;
+  }
+}
+header .container .nav-menu {
+  display: none;
+}
+@media (min-width: 992px) {
+  header .container .nav-menu {
+    display: block;
+  }
 }/*# sourceMappingURL=style.css.map */
