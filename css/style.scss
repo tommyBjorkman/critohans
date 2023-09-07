@@ -5,6 +5,10 @@ html, body {
     font-size: 16px;
     font-weight: 400;
 }
+
+.btn-yellow {
+
+}
 header {
     display: flex;
     background-color: #F0EFE9;
@@ -36,8 +40,10 @@ header {
                 display: flex;
                 padding-bottom: 10px;
                 border-bottom: 1px solid #DAD9D3;
+                align-items: center;
                 .contact-menu {
-                    display: flex;             
+                    display: flex; 
+                    align-items: center;            
                     .content-box {
                         padding-right: 20px;
                         margin-right: 30px;
@@ -54,10 +60,42 @@ header {
                         }  
                 }
                 .social-media {
-                    a {
+                    svg {
                         margin-left: 12px;
+                        fill: #191919;
                         &:hover{
-                            color: #666666;
+                            fill: #666666;
+                            transition: 0.4s;
+                            transition-timing-function: ease-out;
+                        }
+                    }
+                }
+            }
+            .main-menu {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding-top: 12px;
+                nav {
+                    a {
+                        color: #191919;
+                        text-decoration: none;
+                        margin-right: 30px;
+                        position: relative;
+                        &.active {
+                            font-weight: 500;
+                        }
+                        &:hover::after,
+                        &.active:after {
+                            content: '';
+                            position: absolute;
+                            font-weight: 500;
+                            height: 2px;
+                            width: 15px;
+                            background-color: #191919;
+                            left: 50%;
+                            bottom: -3px;
+                            transform: translate((calc(50% - 15px)));
                         }
                     }
                 }

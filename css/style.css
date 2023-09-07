@@ -42,9 +42,11 @@ header .container .nav-menu .top-menu {
   display: flex;
   padding-bottom: 10px;
   border-bottom: 1px solid #DAD9D3;
+  align-items: center;
 }
 header .container .nav-menu .top-menu .contact-menu {
   display: flex;
+  align-items: center;
 }
 header .container .nav-menu .top-menu .contact-menu .content-box {
   padding-right: 20px;
@@ -60,9 +62,38 @@ header .container .nav-menu .top-menu .contact-menu .content-box svg {
 header .container .nav-menu .top-menu .contact-menu .content-box.last {
   border-right: none;
 }
-header .container .nav-menu .top-menu .social-media a {
+header .container .nav-menu .top-menu .social-media svg {
   margin-left: 12px;
+  fill: #191919;
 }
-header .container .nav-menu .top-menu .social-media a:hover {
-  color: #666666;
+header .container .nav-menu .top-menu .social-media svg:hover {
+  fill: #666666;
+  transition: 0.4s;
+  transition-timing-function: ease-out;
+}
+header .container .nav-menu .main-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 12px;
+}
+header .container .nav-menu .main-menu nav a {
+  color: #191919;
+  text-decoration: none;
+  margin-right: 30px;
+  position: relative;
+}
+header .container .nav-menu .main-menu nav a.active {
+  font-weight: 500;
+}
+header .container .nav-menu .main-menu nav a:hover::after, header .container .nav-menu .main-menu nav a.active:after {
+  content: "";
+  position: absolute;
+  font-weight: 500;
+  height: 2px;
+  width: 15px;
+  background-color: #191919;
+  left: 50%;
+  bottom: -3px;
+  transform: translate(calc(50% - 15px));
 }/*# sourceMappingURL=style.css.map */
