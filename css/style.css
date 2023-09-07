@@ -1,3 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;900&display=swap");
+html, body {
+  color: #191919;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
 header {
   display: flex;
   background-color: #F0EFE9;
@@ -22,9 +30,39 @@ header .container .menu-bars {
 }
 header .container .nav-menu {
   display: none;
+  flex: 1;
 }
 @media (min-width: 992px) {
   header .container .nav-menu {
     display: block;
   }
+}
+header .container .nav-menu .top-menu {
+  justify-content: space-between;
+  display: flex;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #DAD9D3;
+}
+header .container .nav-menu .top-menu .contact-menu {
+  display: flex;
+}
+header .container .nav-menu .top-menu .contact-menu .content-box {
+  padding-right: 20px;
+  margin-right: 30px;
+  border-right: 1px solid #DAD9D3;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+}
+header .container .nav-menu .top-menu .contact-menu .content-box svg {
+  margin-right: 5px;
+}
+header .container .nav-menu .top-menu .contact-menu .content-box.last {
+  border-right: none;
+}
+header .container .nav-menu .top-menu .social-media a {
+  margin-left: 12px;
+}
+header .container .nav-menu .top-menu .social-media a:hover {
+  color: #666666;
 }/*# sourceMappingURL=style.css.map */
