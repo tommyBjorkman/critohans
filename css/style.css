@@ -292,8 +292,8 @@ header .container .nav-menu .main-menu nav a:hover::after, header .container .na
   grid-template-rows: auto 1fr auto;
 }
 .project-section .container .project-cases article img {
-  width: 100%;
-  height: auto;
+  max-width: 645px;
+  max-height: 311px;
 }
 .project-section .container .project-cases article a {
   padding: 16px 16px;

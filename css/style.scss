@@ -269,8 +269,8 @@ header {
                 grid-template-columns: 1fr;
                 grid-template-rows: auto 1fr auto;
                 img {
-                    width: 100%;
-                    height: auto;
+                    max-width: 645px;
+                    max-height: 311px;
                 }
                 a {
                     padding: 16px 16px;
