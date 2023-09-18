@@ -320,4 +320,17 @@ header .container .nav-menu .main-menu nav a:hover::after, header .container .na
 .project-section .container .center-content {
   margin-top: 50px;
   margin-bottom: 90px;
+}
+
+.company-logos {
+  display: none;
+}
+@media (min-width: 1400px) {
+  .company-logos {
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+    margin-right: -200px;
+    margin-left: -100px;
+  }
 }/*# sourceMappingURL=style.css.map */
