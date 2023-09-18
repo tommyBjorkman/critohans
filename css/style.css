@@ -225,8 +225,14 @@ header .container .nav-menu .main-menu nav a:hover::after, header .container .na
 }
 
 .section-title {
-  padding-top: 120px;
-  padding-bottom: 90px;
+  padding-top: 70px;
+  padding-bottom: 40px;
+}
+@media (min-width: 768px) {
+  .section-title {
+    padding-top: 120px;
+    padding-bottom: 90px;
+  }
 }
 .section-title p {
   color: #f94d1c;
@@ -241,4 +247,40 @@ header .container .nav-menu .main-menu nav a:hover::after, header .container .na
 
 .project-section .container .section-title {
   text-align: center;
+}
+.project-section .container .project-cases {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+}
+@media (min-width: 768px) {
+  .project-section .container .project-cases {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+.project-section .container .project-cases article img {
+  width: 100%;
+  max-height: 70%;
+}
+.project-section .container .project-cases article a {
+  padding: 16px 16px;
+  display: block;
+  text-align: right;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: #191919;
+  text-decoration: none;
+}
+.project-section .container .project-cases article a i {
+  margin-left: 5px;
+}
+.project-section .container .project-cases article h3 {
+  padding-top: 35px;
+  padding-bottom: 16px;
+  color: #191919;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  border-bottom: 1px solid #DAD9D3;
 }/*# sourceMappingURL=style.css.map */
