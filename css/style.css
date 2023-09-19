@@ -427,7 +427,7 @@ header .container .nav-menu .main-menu nav a:hover::after, header .container .na
 }
 
 .company-service {
-  background: #f0efe9;
+  background-color: #f0efe9;
   margin-top: 30px;
 }
 .company-service .container .section-title {
@@ -435,12 +435,27 @@ header .container .nav-menu .main-menu nav a:hover::after, header .container .na
 }
 .company-service .container .company-services {
   display: flex;
+  gap: 30px;
+  display: flex;
+  justify-content: space-between;
 }
 .company-service .container .company-services .service-option {
   background-color: #ffffff;
   padding: 10px;
-  justify-content: space-between;
-  border: 1px solid #191919;
+}
+.company-service .container .company-services .border-top {
+  border-top: 1px solid #d90000;
+  width: 35px;
+  margin-top: 10px;
+  background-color: #d90000;
+  position: absolute;
+}
+.company-service .container .company-services h3 {
+  color: #191919;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  padding-top: 14px;
 }
 .company-service .container .bottom-button {
   margin-top: 50px;
