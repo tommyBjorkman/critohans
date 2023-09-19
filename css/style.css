@@ -448,7 +448,6 @@ header .container .nav-menu .main-menu nav a:hover::after, header .container .na
   width: 35px;
   margin-top: 10px;
   background-color: #d90000;
-  position: absolute;
 }
 .company-service .container .company-services h3 {
   color: #191919;
