@@ -378,4 +378,50 @@ header .container .nav-menu .main-menu nav a:hover::after, header .container .na
     color: #191919;
     padding-bottom: 30px;
   }
+}
+
+.about-company .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.about-company .container .about-image img {
+  width: 70%;
+  padding-top: 90px;
+  position: relative;
+}
+.about-company .container .about-image .text-overlay {
+  position: absolute;
+  padding: 10px;
+  background-color: #BEEBFF;
+  display: block;
+  margin-left: -15%;
+  margin-top: 20%;
+  max-width: 380px;
+}
+.about-company .container .about-image .text-overlay h3 {
+  color: #191919;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  padding-top: 14px;
+  display: inline;
+}
+.about-company .container .about-image .text-overlay p {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 500;
+  font-style: italic;
+  text-align: left;
+  color: #191919;
+  margin-top: 20px;
+  display: block;
+}
+.about-company .container .about-image .text-overlay .h3-color {
+  color: #f94d1c;
+}
+.about-company .container .section-title article {
+  padding-bottom: 50px;
+}
+.about-company .container .section-title .btn-black {
+  justify-content: end;
 }/*# sourceMappingURL=style.css.map */

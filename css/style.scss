@@ -355,3 +355,55 @@ header {
         }
     }
 }
+.about-company {
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        .about-image {
+            img {
+                width: 70%;
+                padding-top: 90px;
+                position: relative;
+            }
+            .text-overlay{
+                position: absolute;
+                padding: 10px;
+                background-color: #BEEBFF;
+                display: block;
+                margin-left: -15%;
+                margin-top: 20%;
+                max-width: 380px;
+                h3 {
+                    color: #191919;
+                    font-family: 'DM Sans', sans-serif;
+                    font-weight: 700;
+                    font-size: 16px;
+                    padding-top: 14px;
+                    display: inline;
+                }
+                p {
+                    font-family: "Inter";
+                    font-size: 16px;
+                    font-weight: 500;
+                    font-style: italic;
+                    text-align: left;
+                    color: #191919;
+                    margin-top: 20px;
+                    display: block;
+                }
+                .h3-color {
+                    color:#f94d1c;
+                }
+            }
+        }
+        .section-title {
+
+            article {
+                padding-bottom: 50px;
+            }
+            .btn-black {
+                justify-content: end;
+            }
+        }
+    }
+}
