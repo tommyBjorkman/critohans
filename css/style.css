@@ -424,4 +424,25 @@ header .container .nav-menu .main-menu nav a:hover::after, header .container .na
 }
 .about-company .container .section-title .btn-black {
   justify-content: end;
+}
+
+.company-service {
+  background: #f0efe9;
+  margin-top: 30px;
+}
+.company-service .container .section-title {
+  margin-right: 800px;
+}
+.company-service .container .company-services {
+  display: flex;
+}
+.company-service .container .company-services .service-option {
+  background-color: #ffffff;
+  padding: 10px;
+  justify-content: space-between;
+  border: 1px solid #191919;
+}
+.company-service .container .bottom-button {
+  margin-top: 50px;
+  padding-bottom: 90px;
 }/*# sourceMappingURL=style.css.map */

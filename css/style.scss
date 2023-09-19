@@ -407,3 +407,35 @@ header {
         }
     }
 }
+.company-service {
+    background: #f0efe9;
+    margin-top: 30px;
+    .container {
+        .section-title {
+            margin-right: 800px;
+
+        }
+        .company-services {
+            display: flex;
+            .service-option {
+                background-color: #ffffff;
+                padding: 10px;
+                justify-content: space-between;
+                border: 1px solid #191919;
+            }
+            .btn-black {
+
+            }
+            h3 {
+
+            }
+            p {
+
+            }
+        }
+        .bottom-button {
+            margin-top: 50px;
+            padding-bottom: 90px;
+        }
+    }
+}
