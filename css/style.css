@@ -330,7 +330,52 @@ header .container .nav-menu .main-menu nav a:hover::after, header .container .na
     display: flex;
     margin-top: 30px;
     justify-content: space-between;
-    margin-right: -200px;
-    margin-left: -100px;
+  }
+}
+
+.company-feature .container {
+  border: 1px solid #DAD9D3;
+  margin-top: 40px;
+}
+@media (min-width: 1200px) {
+  .company-feature .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+.company-feature .container .section-title {
+  padding-top: 90px;
+  padding-left: 50px;
+  padding-right: 120px;
+  padding-bottom: 200px;
+}
+.company-feature .container .section-title a {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.company-feature .container .features {
+  display: none;
+}
+@media (min-width: 1200px) {
+  .company-feature .container .features {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding-top: 100px;
+  }
+  .company-feature .container .features h3 {
+    color: #191919;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    padding-top: 14px;
+  }
+  .company-feature .container .features p {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #191919;
+    padding-bottom: 30px;
   }
 }/*# sourceMappingURL=style.css.map */
