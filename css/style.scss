@@ -453,3 +453,35 @@ header {
         }
     }
 }
+.why-us {
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        .why-us-image {
+            margin-top: 90px;
+            img {
+                max-width: 645px;
+            }
+        }
+        .why-us-grid {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            .section-title {
+                width: 50%;
+            }
+            .why-us-section {
+
+                .why-us-text {
+                    .us-icon {
+                        margin-right: 50px;
+                        border: 1px solid #191919;
+                    }
+                    .us-content {
+                        flex: 1;
+                    }
+                }
+            }
+        }
+    }
+}

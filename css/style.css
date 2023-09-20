@@ -459,4 +459,30 @@ header .container .nav-menu .main-menu nav a:hover::after, header .container .na
 .company-service .container .bottom-button {
   margin-top: 50px;
   padding-bottom: 90px;
+}
+
+.why-us .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.why-us .container .why-us-image {
+  margin-top: 90px;
+}
+.why-us .container .why-us-image img {
+  max-width: 645px;
+}
+.why-us .container .why-us-grid {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.why-us .container .why-us-grid .section-title {
+  width: 50%;
+}
+.why-us .container .why-us-grid .why-us-section .why-us-text .us-icon {
+  margin-right: 50px;
+  border: 1px solid #191919;
+}
+.why-us .container .why-us-grid .why-us-section .why-us-text .us-content {
+  flex: 1;
 }/*# sourceMappingURL=style.css.map */
